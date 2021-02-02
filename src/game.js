@@ -42,7 +42,7 @@ class Gamecomp extends React.Component {
     render() {
         return(
             <div style={{margin: '0px auto', width: '1000px', padding: '10px', backgroundColor: '#fafafa', border: '2px solid #dee2e6', borderRadius: '10px', minHeight: '500px', marginTop: '5px'}}>
-                <h4>KANZAN BOARD</h4>
+                <h4>KANZAN BOARD GAME</h4>
                 <Addtask addtask1={this.addtask}  />
                 <Stagescomp stage={this.state.stage} task_obj={this.state.task_obj} movetask={this.movetask} />
                 <div style={{clear: 'both'}}></div>
